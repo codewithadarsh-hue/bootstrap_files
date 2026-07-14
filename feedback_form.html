@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container  mt-5">
+    
+        <form>
+        
+            <div class="form-group">
+                <label for="text">Name:</label>
+                <input type="text" class="form-control" id="text" placeholder="Enter your Name" name="text">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your E-mail" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Feedback:</label>
+                <textarea class="form-control" rows="5" cols="30" id="comment" placeholder="Write your Feedback"></textarea>
+            </div>
+
+            <div class="input-group mt-3 mb-3">
+                <div class="input-group-prepend">
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+                        Select
+                    </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Friends</a>
+                            <a class="dropdown-item" href="#">Family</a>
+                            <a class="dropdown-item" href="#">Social media</a>
+                        </div>
+                </div>
+
+                <input type="text" class="form-control" placeholder="How do you know about us">
+            </div>
+
+            <label for="rating" class="form-check-label">Rate us!</label>
+
+        <div>
+    
+            <div class="form-check-inline mt-3 ">   
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input "name="optradio"> 1
+                </label>
+            </div>
+
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input"name="optradio" > 2
+                </label>
+            </div>
+
+            <div class="form-check-inline disabled">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio"> 3
+                </label>
+            </div>
+
+            <div class="form-check-inline disabled">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio"> 4
+                </label>
+            </div>
+
+            <div class="form-check-inline disabled">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio"> 5
+                </label>
+            </div>
+
+        </div>
+
+            <button type="button" class="btn btn-primary d  -block mt-5 mx-auto">Submit</button>
+</div>
+</form>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
